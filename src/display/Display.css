@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;  */
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(195, 193, 193);
+  padding: 2rem;
+
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+p {
+  font-size: 1.7rem;
+  margin-bottom: 1.3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 95%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 8px hsla(0, 0%, 0%, 0.54);
+  background-color: rgb(226, 220, 220);
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid rgb(97, 94, 94);
+  text-align: center;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+td button {
+  margin-left: 1rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+}
+button#dlt{
+  background-color: hsl(0, 93%, 45%);
+  color: white;
+  cursor: pointer;
+}
+button#dlt:hover {
+  background-color: hsla(0, 93%, 45%, 0.689);
+  color: white;
+  cursor: pointer;
+}
+button#upt{
+  background-color: hsl(28, 94%, 49%);
+  cursor: pointer;
+  color: white;
+}
+button#upt:hover {
+  background-color: hsla(28, 94%, 49%, 0.655);
+  cursor: pointer;
+  color: white;
+}
